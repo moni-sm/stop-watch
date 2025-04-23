@@ -1,0 +1,30 @@
+.stopwatch-container {
+  background-color: #e0f7ff;
+  color: #005b96;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(0, 91, 150, 0.1);
+}
+
+.time {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.buttons button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #005b96;
+}
