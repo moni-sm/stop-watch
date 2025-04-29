@@ -1,9 +1,17 @@
-<div class="stopwatch-container">
-  <h1>Stopwatch</h1>
-  <div class="time">{{ formattedTime }}</div>
-  <div class="buttons">
-    <button (click)="start()">Start</button>
-    <button (click)="stop()">Stop</button>
-    <button (click)="reset()">Reset</button>
+<div class="bg-sky-100 text-blue-900 text-center p-8 rounded-lg max-w-md mx-auto mt-12 shadow-lg">
+  <h1 class="text-3xl font-bold mb-4">Stopwatch</h1>
+
+  <div class="text-5xl my-4">{{ formattedTime }}</div>
+
+  <div class="flex justify-center space-x-4">
+    <button (click)="start()" class="bg-sky-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition">
+      Start
+    </button>
+    <button (click)="stop()" class="bg-sky-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition">
+      Stop
+    </button>
+    <button (click)="reset()" class="bg-sky-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition">
+      Reset
+    </button>
   </div>
 </div>
